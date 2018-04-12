@@ -21,6 +21,7 @@
   "rules": {
     "react/jsx-uses-vars": 2,
     "react/jsx-uses-react": 2,
+    "arrow-parens": false,
     "comma-dangle": [
       "error",
       {

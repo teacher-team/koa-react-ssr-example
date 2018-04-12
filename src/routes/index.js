@@ -1,19 +1,15 @@
-import Loadable from 'react-loadable';
-import Loading from '../components/shared/loading';
+import load from './load';
 
-const Home = Loadable({
-  loader: () => import('../containers/home'),
-  loading: Loading
+const Home = load({
+  loader: () => import('../containers/home')
 });
 
-const RoomStatus = Loadable({
-  loader: () => import('../containers/room-status'),
-  loading: Loading
+const RoomStatus = load({
+  loader: () => import('../containers/status')
 });
 
-const HotelConfig = Loadable({
-  loader: () => import('../containers/hotel-config'),
-  loading: Loading
+const HotelConfig = load({
+  loader: () => import('../containers/config')
 });
 
 const routes = [

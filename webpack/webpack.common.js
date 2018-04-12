@@ -4,14 +4,15 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: [path.resolve(__dirname, '../src/index.jsx')],
   output: {
-    filename: '[name].bundle.js',
-    chunkFilename: '[name].bundle.js',
+    filename: '[name].[hash].bundle.js',
+    chunkFilename: '[name].[hash].bundle.js',
     path: path.resolve(__dirname, '../dist/'),
     publicPath: process.env.NODE_ENV === 'pro' ? './' : '/'
   },
 
   optimization: {
     splitChunks: {
+      chunks:'all',
       cacheGroups: {
         vendor: {
           test: /node_modules/,

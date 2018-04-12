@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{12:function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var u,o=(u=t(1))&&u.__esModule?u:{default:u};n.default=function(){return o.default.createElement("div",null,"config")}}}]);
+//# sourceMappingURL=0.5fbefc0053930b1bf3cd.bundle.js.map

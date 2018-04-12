@@ -1,30 +1,34 @@
 .main {
-  display: flex;
-  display: -webkit-flex;
-  flex-direction: column;
-  flex-direction: -webkit-column;
-  height: 100%;
+    display: flex;
+    height: 100%;
+    overflow: hidden;
 }
 
 .header {
-  background: #001529;
-  line-height: 42px;
-}
-
-.content {
-  display: flex;
-  flex: 1;
-  overflow: auto;
-}
-
-.menu {
-  line-height: 42px;
-  border: none;
+    flex: 0 0 48px;
+    line-height: 48px;
+    border-bottom: 1px solid #e8e8e8;
 }
 
 .log {
-  float: left;
-  color: #fff;
-  width: 240px;
-  text-align: center;
+    text-align: center;
+}
+
+.menu {
+    flex: auto;
+}
+
+.aside {
+    flex: 0 0 280px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #e8e8e8;
+}
+
+.window {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    min-width: 1100px;
+    overflow: scroll;
 }

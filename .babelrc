@@ -1,8 +1,12 @@
 {
   "presets": ["env", "react"],
   "plugins": [
-    "babel-plugin-transform-class-properties",
     "transform-runtime",
+    [
+      "import",
+      { "libraryName": "antd",  "style": "css" }
+    ],
+    "babel-plugin-transform-class-properties",
     "syntax-dynamic-import",
     "react-loadable/babel"
   ]
