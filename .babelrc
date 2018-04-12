@@ -1,0 +1,9 @@
+{
+  "presets": ["env", "react"],
+  "plugins": [
+    "babel-plugin-transform-class-properties",
+    "transform-runtime",
+    "syntax-dynamic-import",
+    "react-loadable/babel"
+  ]
+}

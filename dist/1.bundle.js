@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{12:function(e,n,c){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var o,t=(o=c(1))&&o.__esModule?o:{default:o};n.default=function(){return console.log("2123123"),t.default.createElement("div",null,"状态12313cccc")}}}]);
+//# sourceMappingURL=1.bundle.js.map

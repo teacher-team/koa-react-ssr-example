@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{11:function(e,n,o){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var t,u=(t=o(1))&&t.__esModule?t:{default:t};n.default=function(){return console.log("2123123"),u.default.createElement("div",null,"配置")}}}]);
+//# sourceMappingURL=0.bundle.js.map

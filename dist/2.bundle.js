@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{13:function(e,t,l){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var u=r(l(6)),n=r(l(1)),a=r(l(14));function r(e){return e&&e.__esModule?e:{default:e}}t.default=function(e){var t=e.routes;return console.log(t),n.default.createElement("div",null,n.default.createElement("ul",null,n.default.createElement("li",null,"3213123")),t.map(function(e,t){return n.default.createElement(a.default,(0,u.default)({key:t},e))}))}}}]);
+//# sourceMappingURL=2.bundle.js.map
